@@ -1,0 +1,56 @@
+# Node.js dependencies
+**/node_modules/
+node_modules/
+
+# React build output
+frontend/build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+backend/node_modules/
+frontend/node_modules/
+
+# Python virtual environments
+venv/
+**/venv/
+ml_model/venv/
+
+# Python cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Misc
+*~
+
+# Python virtual environment in ml_model
+ml_model/venv/
